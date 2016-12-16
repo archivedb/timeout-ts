@@ -1,6 +1,6 @@
 {
   "name": "timeout-ts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "timeout as a promise",
   "main": "lib/timeout.js",
   "types": "lib/timeout.d.ts",
@@ -34,7 +34,6 @@
     "build": "tsc",
     "clean": "rimraf lib coverage .nyc_output",
     "report": "nyc report --reporter=html",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "publish": "npm run clean && npm run build && npm publish ."
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   }
 }
