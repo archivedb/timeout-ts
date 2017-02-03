@@ -1,17 +1,21 @@
-
 # timeout-ts
-
-timeout as a promise
 
 [![NPM Version][npm-badge]][npm-url]
 [![Build Status][build-badge]][build-status]
 [![Test Coverage][coverage-badge]][coverage-result]
+
+timeout as a promise
 
 ## installation
 
 `npm install timeout-ts --save`
 
 ## usage
+
+```ts
+timeout: (ms?: number) => Promise<void>
+timeoutTI: (ms?: number) => [Promise<void>, number]
+```
 
 ```ts
 import timeout from 'timeout-ts'

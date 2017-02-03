@@ -1,6 +1,5 @@
-
 import test from 'ava'
-import timeout, { timeoutTI } from '../lib/timeout'
+import { timeout, timeoutTI } from '../lib/timeout'
 
 test('clean timeout', async t => {
   let variable = true

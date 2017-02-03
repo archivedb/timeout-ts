@@ -1,5 +1,4 @@
-
-const timeout = (ms: number = 0): Promise<void> =>
+export const timeout = (ms: number = 0): Promise<void> =>
   new Promise<void>(resolve => { setTimeout(resolve, ms) })
 
 export const timeoutTI = (ms: number = 0): [Promise<void>, number] => {

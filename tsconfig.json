@@ -1,4 +1,3 @@
-
 // https://www.typescriptlang.org/docs/handbook/compiler-options.html
 {
   "buildOnSave": false,
@@ -17,8 +16,8 @@
     "noImplicitThis": true,
     "removeComments": false,
     "strictNullChecks": true,
-    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
     "suppressImplicitAnyIndexErrors": true,
-    "lib": [ "dom", "scripthost", "es6", "es2017" ]
+    "lib": ["dom", "es6", "es2017"]
   }
 }

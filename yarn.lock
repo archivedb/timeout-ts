@@ -3029,15 +3029,15 @@ trim-newlines@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/trim-newlines/download/trim-newlines-1.0.0.tgz#5887966bb582a4503a41eb524f7d35011815a613"
 
-tslint-config-standard@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.npm.taobao.org/tslint-config-standard/download/tslint-config-standard-2.0.0.tgz#8d3255cd2e61b474811773f3c11e040796e46416"
+tslint-config-standard@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.npm.taobao.org/tslint-config-standard/download/tslint-config-standard-3.0.0.tgz#f13dcc419c0db301f7322bfda084fbf7cab256b9"
   dependencies:
-    tslint-eslint-rules "^3.0.0"
+    tslint-eslint-rules "^3.2.3"
 
-tslint-eslint-rules@^3.0.0:
-  version "3.2.0"
-  resolved "http://registry.npm.taobao.org/tslint-eslint-rules/download/tslint-eslint-rules-3.2.0.tgz#5f56bb433896c29c24d9157052abd93e6fdeb33b"
+tslint-eslint-rules@^3.2.3:
+  version "3.2.3"
+  resolved "http://registry.npm.taobao.org/tslint-eslint-rules/download/tslint-eslint-rules-3.2.3.tgz#e4ad7dd9071c8effdac9a2ea86b927c11a39dcf1"
   dependencies:
     doctrine "^0.7.2"
     tslint "^4.0.0"
