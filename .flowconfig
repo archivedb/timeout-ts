@@ -1,0 +1,6 @@
+[ignore]
+.*/lib/.*
+.*/coverage/.*
+
+[libs]
+flow
