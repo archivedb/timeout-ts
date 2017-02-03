@@ -1,6 +1,6 @@
 {
   "name": "timeout-ts",
-  "version": "0.2.0",
+  "version": "0.5.0",
   "description": "timeout as a promise",
   "main": "lib/timeout.js",
   "types": "lib/timeout.d.ts",
