@@ -1,23 +1,13 @@
 // https://www.typescriptlang.org/docs/handbook/compiler-options.html
 {
-  "buildOnSave": false,
   "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "lib",
-    "rootDir": "src",
-    "jsx": "preserve",
     "target": "es5",
     "module": "commonjs",
-    "moduleResolution": "node",
     "pretty": true,
+    "strict": true,
     "sourceMap": true,
     "declaration": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "removeComments": false,
-    "strictNullChecks": true,
-    "noImplicitReturns": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "lib": ["dom", "es6", "es2017"]
+    "lib": ["dom", "esnext"]
   }
 }

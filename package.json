@@ -1,17 +1,15 @@
 {
   "name": "timeout-ts",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "timeout as a promise",
-  "main": "lib/timeout.js",
-  "types": "lib/timeout.d.ts",
-  "author": "airt <airtial@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/airt/timeout-ts",
   "keywords": [
     "timeout",
     "promise",
     "typescript"
   ],
+  "license": "MIT",
+  "author": "airt <airtial@gmail.com>",
+  "homepage": "https://github.com/airt/timeout-ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/airt/timeout-ts"
@@ -19,20 +17,22 @@
   "bugs": {
     "url": "https://github.com/airt/timeout-ts/issues"
   },
+  "main": "lib/timeout.js",
+  "types": "lib/timeout.d.ts",
   "devDependencies": {
-    "ava": "^0.18.0",
+    "ava": "^0.19.0",
     "coveralls": "^2.0.0",
     "nyc": "^10.0.0",
     "rimraf": "^2.0.0",
-    "tslint": "^4.0.0",
-    "tslint-config-standard": "^3.0.0",
-    "typescript": "^2.1.0"
+    "tslint": "^5.0.0",
+    "tslint-config-standard": "^5.0.0",
+    "typescript": "^2.0.0"
   },
   "scripts": {
     "test": "nyc ava",
-    "lint": "tslint 'src/**/*.ts'",
-    "build": "tsc",
-    "clean": "rimraf lib coverage .nyc_output",
+    "lint": "tslint -p tsconfig.json --type-check 'src/**/*.ts'",
+    "build": "tsc --outDir lib",
+    "clean": "rm -rf lib coverage .nyc_output",
     "report": "nyc report --reporter=html",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   }
