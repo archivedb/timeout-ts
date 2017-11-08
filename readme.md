@@ -1,10 +1,10 @@
 # timeout-ts
 
+[DEPRECATED]
+
 [![Build Status][build-badge]][build-status]
 [![Test Coverage][coverage-badge]][coverage-result]
 [![NPM Version][npm-badge]][npm-url]
-
-timeout as a promise
 
 ## installation
 
@@ -69,10 +69,6 @@ const [promise, timeoutId] = timeoutTI(100)
 
 clearTimeout(timeoutId)
 ```
-
-## license
-
-MIT
 
 [build-badge]: https://img.shields.io/travis/airt/timeout-ts/master.svg
 [build-status]: https://travis-ci.org/airt/timeout-ts
